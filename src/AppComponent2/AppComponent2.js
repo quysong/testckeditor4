@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './AppComponent2.module.scss';
 import './AppComponent2.scss'
 import CKEditor from 'ckeditor4-react';
+CKEditor.editorUrl = 'https://cdn.ckeditor.com/4.11.4/full/ckeditor.js';
 
 const AppComponent2 = () => {
     return (
